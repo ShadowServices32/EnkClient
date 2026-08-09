@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Azelux Client</title>
+
+	<link rel="icon" href="/favicon.ico">
+
+    <!-- ✅ FIX: prevent font loading layout shift -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+    <div class="topbar-left">
+        <img src="logo.png" class="logo-small-img" alt="Azelux Logo">
+        <span class="brand-text">AZELUX CLIENT</span>
+    </div>
+
+    <nav class="topbar-nav">
+        <a href="index.html">HOME</a>
+        <a href="staff.html">STAFF</a>
+        <a href="config.html">CONFIG SAVING</a>
+    </nav>
+
+    <div class="topbar-right">
+        <div class="online-status">
+            <span class="dot"></span>
+            <span id="online-count">– online</span>
+        </div>
+
+        <a href="https://dsc.gg/azelux" class="download-header">
+            DOWNLOAD
+        </a>
+    </div>
+</header>
+
+<!-- Burger Menu -->
+<div class="burger-menu" id="burgerMenu">
+    <a href="index.html">HOME</a>
+    <a href="staff.html">STAFF</a>
+    <a href="config.html">CONFIG SAVING</a>
+</div>
+
+<section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <img src="logo.png" class="logo-large-img" alt="Azelux Client Logo">
+
+        <h1>AZELUX CLIENT</h1>
+        <p class="subtitle">
+            A powerful Minecraft Bedrock Resource Pack with advanced config saving.
+        </p>
+
+        <div class="cta-buttons">
+            <a href="https://dsc.gg/azelux" class="btn download">
+                DOWNLOAD
+            </a>
+            <a href="config.html" class="btn config">
+                CONFIG
+            </a>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+<footer class="site-footer">
+    &copy; Azelux Client 2026
+</footer>
+</body>
+</html>
